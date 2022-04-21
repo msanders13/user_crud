@@ -1,11 +1,11 @@
 from app.database import get_db
 
 
-def output_formatter(results):
-    out = []
-    for result in results:
+def output_formatter(results):      #results will be a tuple of tuples
+    out = []                        #empty list
+    for result in results:          #for each loop
         result_dict = {
-            "id": result [0],
+            "id": result [0],       #[#] ordering the list
             "first_name": result [1],
             "last_name": result [2],
             "hobbies": result [3],
