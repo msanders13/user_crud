@@ -23,3 +23,4 @@ if __name__ == "__main__":
     last_name = input("Enter a last name: ")
     hobbies = input("Enter hobbies: " )
     create_user(first_name, last_name, hobbies)
+
