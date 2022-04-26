@@ -1,6 +1,6 @@
 from app.database import get_db
 
-
+#JJJJJJJJ
 def output_formatter(results):
     out = []
     for result in results:
